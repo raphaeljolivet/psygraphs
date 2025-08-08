@@ -37,7 +37,7 @@ def initial_data() :
     return scores
 
 def main():
-    st.title("Hello world")
+    st.title("Notes standard")
 
     df = initial_data()
     df = st.data_editor(df, hide_index=True, column_order=["cat", "indice", "score"])
