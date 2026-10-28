@@ -7,9 +7,9 @@ from utils import plot
 
 def initial_data() :
     data = {
-       "LAV": 108,
+       "IAV": 108,
        "INV": 91,
-        "LAG" : 101,
+        "IAG" : 101,
         "IEC": 93}
 
     scores =  pd.DataFrame.from_dict(data, orient='index', columns=['score']).reset_index()
